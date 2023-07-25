@@ -36,7 +36,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
   res.render('help', {
-    message: 'please contact the given email address Thank You',
+    message: 'please mail to jithendra231@gmail.com Thank You',
     title: 'Help',
     name: 'Jithendra Gangu',
   });
